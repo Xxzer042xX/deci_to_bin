@@ -20,6 +20,6 @@ int	main(int ac, char **av)
 		deci = ft_atoi(av[1]);
 		deci_to_bin(deci);
 	}
-	write(1, "\n", 1);
-	return(0);
+	write (1, "\n", 1);
+	return (0);
 }
